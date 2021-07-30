@@ -18,8 +18,8 @@ const Header = () => {
               </h1>
             </div>
           </div>
-          <div class="col-6">
-          </div>
+          {/* <div class="col-6">
+          </div> */}
           <div class="col-3">
             <nav>
               <ul>

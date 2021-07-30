@@ -1,10 +1,13 @@
 .header {
   background-color: black;
   color: white;
-  padding: 10px;
   display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
-
+.header h1{
+  padding-top: 1.5rem;
+}
 .navbar {
   position: absolute;
   right: 5%;
@@ -17,6 +20,7 @@ nav ul{
 nav li{
   margin-left: 2rem;
   margin-top: 3rem;
+  cursor:pointer;
 }
 
 .comp-name{
@@ -26,4 +30,8 @@ nav li{
 .comp-name img{
   border-radius: 50%;
   margin-right: 2rem;
+}
+
+.comp-name h1{
+  align-items: center;
 }
