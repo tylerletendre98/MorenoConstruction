@@ -9,3 +9,21 @@
   position: absolute;
   right: 5%;
 }
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.comp-name{
+  display: flex;
+}
+
+.comp-name img{
+  border-radius: 50%;
+  margin-right: 2rem;
+}
