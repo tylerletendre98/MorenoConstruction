@@ -4,6 +4,7 @@ import {Switch, Route} from 'react-router-dom'
 import { Component } from "react";
 import AboutMe from './pages/aboutme/AboutMe'
 import ContactMe from './pages/contact-me/contactMe'
+import Services from './pages/services/services'
 
 class App extends Component {
 
@@ -19,6 +20,7 @@ class App extends Component {
         <Switch>
           <Route  path="/aboutMe" exact component={AboutMe}/>
           <Route  path="/contactMe" exact component={ContactMe}/>
+          <Route  path="/services" exact component={Services}/>
         </Switch>
       </div>
     );
